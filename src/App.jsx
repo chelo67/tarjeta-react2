@@ -123,7 +123,7 @@ export default function App() {
 
           {data.puesto && (
             <Typography variant="subtitle1" sx={{ marginTop: "-8px" }}>
-              {data.puesto}
+              {data.puesto} puesto
             </Typography>
           )}
           {data.logo_empresa && (
