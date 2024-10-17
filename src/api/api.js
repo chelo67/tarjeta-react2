@@ -4,7 +4,7 @@ export const fetchDataFromAPI = async () => {
 
   try {
     const response = await fetch(
-      `https://fastidious-partridge-e86cda.instawp.xyz/wp-json/wp/v2/user_slug/${slug}`
+      `https://humorous-millipede-c2c28c.instawp.xyz//wp-json/wp/v2/user_slug/${slug}`
     );
     
     if (!response.ok) {
